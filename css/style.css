@@ -1,0 +1,205 @@
+/*
+    *********************
+    DONE BY:-   KESHAV N
+    *********************
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body {
+  max-height: 100vh;
+}
+
+nav {
+  background-color: #161d6f;
+  color: white;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  column-gap: 10%;
+  padding: 0% 5%;
+}
+
+nav .array-inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+  grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_size {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_speed {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_generate {
+  border: 1px solid black;
+  border-radius: 1rem;
+  outline: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: white;
+  background-color: transparent;
+  transition: background-color 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+nav .array-inputs #a_generate:hover {
+  background-color: #0b2f9f;
+}
+
+nav .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+
+nav .header_right .algos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav .header_right .algos button {
+  margin-left: 0.4rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+  color: white;
+  outline: none;
+  padding: 0.7rem;
+  font-size: medium;
+  background-color: transparent;
+  transition: background-color 0.4s ease-in-out;
+}
+
+nav .header_right .algos button:hover {
+  background-color: #0b2f9f;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: #0b2f9f;
+  cursor: pointer;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+  grid-template-columns: 20% 60% 20%;
+}
+
+section .Complexity_Containers {
+  margin-top: 20%;
+}
+
+section .Complexity_Containers .Pair_Definitions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  font-size: medium;
+  text-transform: none;
+}
+
+section #Info_Cont1 {
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+section #Info_Cont1 h3 {
+  text-decoration: underline;
+}
+
+section #array_container {
+  display: flex;
+  height: 65vh;
+  width: 100%;
+}
+
+section #Info_Cont2 {
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+section #Info_Cont2 h3 {
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+}
+
+/*
+@media (max-width: 480px)//Mobiles
+{
+    
+}
+
+@media (min-width: 481px) and (max-width: 1250px)//Tablets
+{
+
+}
+
+@media (min-width: 1251px)//Laptops and up
+{
+
+}
+*/
+/*
+    *********************
+    DONE BY:-   KESHAV N
+    *********************
+*/
+/*# sourceMappingURL=style.css.map */
